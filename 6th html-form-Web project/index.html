@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 rd-c web project</title>
+</head>
+<body background="best_art_schools.jpg">
+    <center>
+        <h1>Fill up and Submit the Form,<br>Get connected with us! </h1>
+    </center>
+    <br>
+    <form action="localhost.php" method="post">
+    <p>
+        <b>Enter Your Username :</b>
+        <input type="text" name="username" id="username" value="" placeholder="username" size="20"
+        maxlength="30" required>
+    </p>
+    <p>
+        <b>Enter Your Email :</b>
+        <input type="email" name="email" id="emai" value="" placeholder="email" size="20" maxlength="30" required>
+    </p>
+    <p>
+        <b>Create Your Password</b>
+        <input type="password" name="password" id="password" value="" placeholder="Choose a password" size="20"
+        maxlength="30" required="At least one Number and special character">
+    </p>
+    <p>
+        <b>Select your age :</b>
+        <br>
+        <input type="radio" name="age" id="opt-1" value="0-25">
+        <label for="opt-1">0-25</label>
+        <input type="radio" name="age" id="opt-2" value="26-50">
+        <label for="opt-2">26-50</label>
+        <input type="radio" name="age" id="opt-3" value="51+">
+        <label for="opt-3">51+</label>
+    </p>
+    <p>
+        <b>Security Question :</b>
+        <select name="question" id="question">
+            <option value="q1">What is your favourite city to visit?</option>
+            <option value="q2">If you were a bird,which bird would be?</option>
+            <option value="q3">What is your nickname?</option>
+            <option value="q4">What food do you like to eat in the Summer Season?</option>
+        </select>
+
+    </p>
+    <p>
+        <b>Security Question Answer :</b>
+        <input type="text" name="answer" id="answer" value="" size="20" maxlength="100" required>
+    </p>
+    <p>
+    <b>Your Bio :</b><br><br>
+    <textarea cols="40" rows="8" placeholder="About you......"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Submit The Form">
+    </p>
+    </form>
+    <br>
+    <center>
+        <em>Powered by <big>SELF-LEARNING INFLUENCER</big><br>&copy;2020</em>
+    </center>
+    
+</body>
+</html>
